@@ -1,6 +1,7 @@
 from flask import Flask, render_template
 from customers.views import customers_blueprints
 from restaurants.views import restaurants_blueprints
+import campus_eats
 
 app = Flask(__name__, static_folder='static')
 
